@@ -3464,3 +3464,9 @@ reviz.MouseButton1Down:connect(function()
 	wait(5.01)
 	intro:Destroy()
 end)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Giveaway",
+	Text = "Congratulations on winning the giveaway!", 
+	Duration = 8
+})
